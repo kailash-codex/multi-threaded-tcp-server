@@ -32,9 +32,8 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-
 		log.Println("client connected")
 
-		do(conn)
+		go do(conn)
 	}
 }
