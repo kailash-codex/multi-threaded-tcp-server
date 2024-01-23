@@ -1,6 +1,6 @@
 # Multi Threaded TCP Server
 
-## This algorithm demonstrates how a Multi Threaded TCP Server works
+## How it works:
 
 We establish a TCP Server that listens to a port 2212
 
